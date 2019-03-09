@@ -1,0 +1,76 @@
+h1{
+	color:red;
+}
+article li{
+	color: #00F;
+}
+article li strong{
+	color:#000;
+}
+aside{
+	width: 30%
+}
+section{
+	float: left;
+	width: 70%
+}
+#formacion{
+	float: left;
+	width: 50%
+}
+#experiencia{
+	float: left;
+	width: 50%;
+}
+article li.actual{
+	font-size:1.2em; 
+	font-weight:bolder;
+}
+nav{
+	float: left;
+	padding:0px 0px 10px 0px;
+}
+nav ul{
+padding: 0;
+}
+nav ul li{
+	display: inline;
+}
+nav ul li a{
+	font-family: Arial;
+	font-size: 11px;
+	text-decoration: none;
+	float: left;
+	padding: 10px;
+	background-color: #2175BC;
+	color: #FFF;
+}
+nav ul li a:hover{
+	background-color: #2586D7;
+	margin-top: -2px;
+	padding-bottom: 12px;
+}
+footer{
+	clear: both;
+}
+@media screen and (max-width: 1000px){
+	body{
+		font-family: Arial,sans-serif;
+	}
+	aside{
+		float: left;
+		width: 100%;
+		clear: both;
+	}
+	section{
+		float: left;
+		width: 830px;
+		clear:both;
+	}
+	#formacion{
+		width: 50%;
+	}
+	#experiencia{
+		width: 100%;
+	}
+}
